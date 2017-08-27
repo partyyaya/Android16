@@ -22,5 +22,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="f1test2"
-        android:text="F1Text"/>
+        android:text="F1Text2"/>
+    <Button
+        android:id="@+id/f1test3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="f1test3"
+        android:text="F1Text3"/>
 </LinearLayout>
