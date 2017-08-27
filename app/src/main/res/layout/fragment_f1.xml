@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tw.ming.app.helloworid.myfragment.F1Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/f1mesg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="i am f1gragment" />
+    <Button
+        android:id="@+id/f1test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="f1test1"
+        android:text="F1Text1"/>
+    <Button
+        android:id="@+id/f1test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="f1test2"
+        android:text="F1Text"/>
+</LinearLayout>
